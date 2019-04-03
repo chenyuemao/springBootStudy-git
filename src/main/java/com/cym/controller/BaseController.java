@@ -8,6 +8,6 @@ public class BaseController {
 
     @RequestMapping("/404.do")
     public Object errorPage(){
-        return "页面没有找到了！";
+        return "页面没有找到了！请检查哟";
     }
 }
